@@ -22,7 +22,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 20%;
-    background-image: url(images/myimg.jpg);
+    background-image: url(myimg.jpg);
     padding: 3.5rem;
     
 }
