@@ -101,6 +101,7 @@ button{
 .movie,.info{
     display:flex;
     justify-content:space-between ;
+    border: 2px solid green;
 
 }
 .info{
@@ -130,7 +131,8 @@ button{
     
 }
 .movie>img{
-    width:30%
+    width:30%;
+    border:solid 2px red
 }
 /* ////////////////////////////////////////PAGE 2////////////////////////////// */
 .add-movie{
@@ -158,6 +160,7 @@ button{
     .container{
         width: 98%;
     }
+    
 }
 @media screen and (max-width:513px) {
     .search-bar{
@@ -169,5 +172,11 @@ button{
 }
 .top-div{
     padding: 2.5rem;
+}
+.movie>img{
+    
+    
+     align-self: center;
+    
 }
 }
